@@ -1,0 +1,119 @@
+/* Navigation Bar */
+
+a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #030504;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #8f8f8f;
+}
+
+.btn {
+  margin: 0.5rem;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #030504;
+}
+
+.btn-header {
+  margin-top: 3rem;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.col-skill {
+  border: 1px inset rgba(0, 0, 0, 0.3);
+}
+
+.col-skill-text {
+  margin: 1rem auto;
+  width: 80%;
+}
+
+#header-img {
+  width: 75%;
+  height: 100%;
+  position: relative;
+  right: 2rem;
+}
+
+.header-text {
+  margin-top: 2rem;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-weight: 600;
+  color: #030504;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: #030504;
+}
+
+#upper-main {
+  background-color: #030504;
+  color: #fff;
+}
+
+.navbar {
+  background-color: #030504;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  border-bottom: 1px inset rgba(255, 255, 255, 0.1);
+}
+
+.navbar-brand {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-list {
+  margin-right: 14%;
+}
+
+.rg-upper-col {
+  text-align: center;
+}
+
+.lf-upper-col {
+  margin-top: 2.5rem;
+}
+
+#skill-container {
+  padding: 3% 15%;
+}
+
+.skill-row {
+  margin-top: 2rem;
+  text-align: center;
+}
