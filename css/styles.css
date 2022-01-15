@@ -160,3 +160,11 @@ p {
   position: relative;
   right: 25%;
 }
+
+.social-media-ref {
+  text-decoration: none;
+}
+
+.social-media-ref:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
