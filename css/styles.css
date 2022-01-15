@@ -1,11 +1,17 @@
 /* Navigation Bar */
 
-a {
-  font-size: 1.2rem;
+.nav-list-anchor {
+  font-size: 1rem;
   font-weight: 600;
   margin: 0 1rem;
   text-decoration: none;
-  color: #030504;
+  color: #fff;
+}
+
+a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
 }
 
 a:hover {
@@ -20,11 +26,11 @@ body {
 }
 
 .btn {
-  margin: 0.5rem;
+  margin-right: 0.5rem;
   font-weight: 500;
 }
 
-.btn:hover {
+.btn-skill:hover {
   background-color: rgba(255, 255, 255, 0.8);
   color: #030504;
 }
@@ -33,17 +39,34 @@ body {
   margin-top: 3rem;
 }
 
-.container-fluid {
+.content-section {
   padding: 3% 15%;
 }
 
-.col-skill {
+.col-item {
   border: 1px inset rgba(0, 0, 0, 0.3);
 }
 
 .col-skill-text {
   margin: 1rem auto;
   width: 80%;
+}
+
+#copyright {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+}
+
+#featured-projects {
+  padding: 3% 15%;
+}
+
+#footer {
+  background-color: #030504;
+  color: #fff;
+  margin-top: 1rem;
+  padding: 1.5% 2.8%;
 }
 
 #header-img {
@@ -71,6 +94,14 @@ h2 {
 
 h3 {
   font-size: 1.2rem;
+}
+
+.header-footer {
+  color: #fff;
+}
+
+.header-title {
+  font-size: 1.2rem;
   color: #030504;
 }
 
@@ -93,12 +124,18 @@ h3 {
   font-size: 2rem;
 }
 
-.nav-link {
-  color: #fff;
-}
-
 .nav-list {
   margin-right: 14%;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.projects-row {
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .rg-upper-col {
@@ -116,4 +153,10 @@ h3 {
 .skill-row {
   margin-top: 2rem;
   text-align: center;
+}
+
+.social-media-row {
+  text-align: center;
+  position: relative;
+  right: 25%;
 }
