@@ -43,8 +43,16 @@ body {
   padding: 3% 15%;
 }
 
-.col-item {
+#code-btn {
+  margin-top: 1.5rem;
+}
+
+.col-content {
   border: 1px inset rgba(0, 0, 0, 0.3);
+}
+
+.col-item {
+  padding: 0 5%;
 }
 
 .col-skill-text {
@@ -157,8 +165,6 @@ p {
 
 .social-media-row {
   text-align: center;
-  position: relative;
-  right: 25%;
 }
 
 .social-media-ref {
