@@ -4,6 +4,14 @@
   padding: 2% 15%;
 }
 
+.dark-section {
+  background-color: #030504;
+  color: #fff;
+}
+.light-section {
+  background-color: #fff;
+}
+
 /* Header */
 
 .btn-header-container {
@@ -12,7 +20,6 @@
 
 .btn-header {
   margin: 0 0.5rem;
-  color: #030504;
 }
 
 #header-img {
@@ -34,15 +41,9 @@
   text-align: center;
 }
 
-#header-main {
-  background-color: #030504;
-  color: #fff;
-}
-
 /* Navigation Bar */
 
 .navbar {
-  background-color: #030504;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   border-bottom: 1px inset rgba(255, 255, 255, 0.1);
@@ -64,7 +65,6 @@
   font-weight: 600;
   margin: 0 1rem;
   text-decoration: none;
-  color: #fff;
 }
 
 /* Project Section */
@@ -84,6 +84,10 @@
 
 .col-project-item {
   padding: 1.5% 5%;
+}
+
+#featured-projects {
+  margin-top: 2rem;
 }
 
 .header-project {
@@ -127,6 +131,10 @@
   margin-left: 3.4375rem;
 }
 
+#skills {
+  margin-top: 2rem;
+}
+
 .skill-row {
   margin-top: 2rem;
   text-align: center;
@@ -141,18 +149,13 @@
 }
 
 #footer {
-  background-color: #030504;
-  color: #fff;
   margin-top: 1rem;
   padding: 1.5% 2.8%;
 }
 
-.header-footer {
-  color: #fff;
-}
-
 .social-media-row {
   text-align: center;
+  margin-top: 1.5rem;
 }
 
 .social-media-ref {
@@ -212,7 +215,13 @@ p {
 
 /* Media Responsiveness */
 
+/* Ipad or below  */
 @media (max-width: 1028px) {
+  /* Header  */
+  .btn-btn-header {
+    margin: 0.5rem 0 0;
+  }
+
   /* Skill */
   .header-skill {
     margin: 0;
@@ -222,5 +231,13 @@ p {
   .header-project {
     margin: 0;
     text-align: center;
+  }
+}
+
+/* Iphone SE  */
+@media (max-width: 400px) {
+  /* Projects Section  */
+  .project-img {
+    width: 90%;
   }
 }
