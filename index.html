@@ -33,8 +33,8 @@
 
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">Ilham R.</a>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="nav-main">
+        <a class="navbar-brand" id="brand-logo" href="index.html">Ilham R.</a>
         <button class="navbar-toggler navbar-to" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbar-toggler-header" aria-controls="navbar-toggler-header" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -43,7 +43,7 @@
 
         <div class="collapse navbar-collapse nav-list" id="navbar-toggler-header">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item nav-list-anchor"><a class="nav-link" href="">Home</a></li>
+                <li class="nav-item nav-list-anchor"><a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item nav-list-anchor"> <a class="nav-link" href="">Achievement</a></li>
             </ul>
         </div>
@@ -52,10 +52,10 @@
     <!-- Main Content -->
     <main>
         <!-- Header -->
-        <header class="container-fluid content-section" id="upper-main">
+        <header class="container-fluid" id="header-main">
             <div>
                 <div class="row">
-                    <div class="col-lg-6 lf-upper-col">
+                    <div class="col-lg-6 header-lf-col">
                         <h1>Hi, I'm Ilham</h1>
                         <div class="header-text">
                             <p>Currently a computer science student</p>
@@ -63,20 +63,20 @@
                                 Intrested in Computer Science, Mathematics, and Artifial Intelligence.
                             </p>
                         </div>
-                        <div class="btn-header">
-                            <a href="res/docs/cv.pdf" download="ilham-cv" target="_blank">
-                                <button type="button" class="btn btn-outline-light btn-lg"> <i
+                        <div class="btn-header-container">
+                            <a class=" btn-header" href="res/docs/cv.pdf" download="ilham-cv" target="_blank">
+                                <button type="button" class="btn btn-outline-light btn-lg"><i
                                         class="far fa-file-pdf"></i>
                                     Curriculum Vitae</button>
                             </a>
-                            <a href="#footer">
+                            <a class=" btn-header" href="#footer">
                                 <button type="button" class="btn btn-outline-light btn-lg"><i
                                         class="far fa-address-book"></i>
                                     Contact</button>
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-6 rg-upper-col">
+                    <div class="col-lg-6 header-rg-col">
                         <img id="header-img" src="res/me-bw-no_bg.png" alt="Ilhams-picture">
                     </div>
                 </div>
@@ -84,38 +84,39 @@
         </header>
 
         <!-- Skill Section -->
-        <section class="container-fluid content-section" id="skill-container">
+        <section class="container-fluid" id="skills">
 
-            <h2>My Top Skills</h2>
+            <h2 class="header-skill">My Top Skills</h2>
             <div class="row skill-row">
-                <div class="col-lg-4 col-item">
-                    <div class="col-content">
+                <div class="col-lg-4 col-skill-item">
+                    <div class="col-skill-content">
                         <img src="res/coding.png" alt="code-image">
                         <div class="col-skill-text">
                             <h3 class="header-title">Computer Programming</h3>
-                            <p>I mainly used Python and C++ when I code</p>
-                            <button class="btn btn-dark btn-skill" id="code-btn">Detail</button>
+                            <p class="content-text">I mainly used Python and C++ when I code</p>
+                            <button class="btn btn-dark btn-skill code-btn">Detail</button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-item">
-                    <div class="col-content">
+                <div class="col-lg-4 col-skill-item">
+                    <div class="col-skill-content">
                         <img src="res/idea.png" alt="problem-solver-image">
                         <div class="col-skill-text">
                             <h3 class="header-title">Problem Solving</h3>
-                            <p> I solved a problems in most cases of my project at University</p>
+                            <p class="content-text"> I solved a problems in most cases of my project at University</p>
                             <button class="btn btn-dark btn-skill">Detail</button>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-item">
-                    <div class="col-content col-item">
+                <div class="col-lg-4 col-skill-item">
+                    <div class="col-skill-content">
                         <img src="res/thinking.png" alt="thinking-image">
                         <div class="col-skill-text">
                             <h3 class="header-title">Critical Thinking</h3>
-                            <p>I'm able to think critically and trying to make a right decision for my team</p>
+                            <p class="content-text">I'm able to think critically and trying to make a right decision for
+                                my team</p>
                             <button class="btn btn-dark btn-skill">Detail</button>
                         </div>
                     </div>
@@ -125,33 +126,34 @@
         </section>
 
         <!-- Featured Projects Section -->
-        <section class="container-fluid content-section" id="featured-projects">
-            <h2>Project That I Create</h2>
+        <section class="container-fluid" id="featured-projects">
+            <h2 class="header-project">Project That I Create</h2>
             <div class="row projects-row">
 
-                <div class="col-lg-6 col-item">
-                    <div class="col-content">
+                <div class="col-lg-6 col-project-item">
+                    <div class="col-project-content">
                         <img src="res/projects-img/project-0.png" alt="project-0">
 
                         <div class="col-skill-text">
                             <h3 class="header-title">Turney</h3>
-                            <p>an online platform to search an esport event in your area</p>
+                            <p class="content-text">an online platform to search an esport event in your area</p>
                             <a href="https://github.com/Mul101/Turney-App" target="_blank">
-                                <button class="btn btn-dark btn-skill">Detail</button>
+                                <button class="btn btn-dark btn-project">Detail</button>
                             </a>
                         </div>
                     </div>
 
                 </div>
 
-                <div class="col-lg-6 col-item">
-                    <div class="col-content">
+                <div class="col-lg-6 col-project-item">
+                    <div class="col-project-content">
                         <img src="res/projects-img/project-1.png" alt="project-1">
                         <div class="col-skill-text">
                             <h3 class="header-title">Barnvest</h3>
-                            <p>a platform to make people invest in livestock industry and owner to get a funds </p>
+                            <p class="content-text">a platform to make people invest in livestock industry and owner to
+                                get a funds </p>
                             <a href="https://github.com/ilham-2001/BarnVest-Barn-Investing-" target="_blank">
-                                <button class="btn btn-dark btn-skill">Detail</button>
+                                <button class="btn btn-dark btn-project">Detail</button>
                             </a>
                         </div>
                     </div>

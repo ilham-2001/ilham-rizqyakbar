@@ -1,80 +1,18 @@
-/* Navigation Bar */
+/* Container */
 
-.nav-list-anchor {
-  font-size: 1rem;
-  font-weight: 600;
-  margin: 0 1rem;
-  text-decoration: none;
-  color: #fff;
+.container-fluid {
+  padding: 2% 15%;
 }
 
-a {
-  font-size: 1rem;
-  font-weight: 600;
-  color: #fff;
-}
+/* Header */
 
-a:hover {
-  color: rgba(0, 0, 0, 0.5);
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: #8f8f8f;
-}
-
-.btn {
-  margin-right: 0.5rem;
-  font-weight: 500;
-}
-
-.btn-skill:hover {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #030504;
-}
-
-.btn-header {
+.btn-header-container {
   margin-top: 3rem;
 }
 
-.content-section {
-  padding: 3% 15%;
-}
-
-#code-btn {
-  margin-top: 1.5rem;
-}
-
-.col-content {
-  border: 1px inset rgba(0, 0, 0, 0.3);
-}
-
-.col-item {
-  padding: 1.5% 5%;
-}
-
-.col-skill-text {
-  margin: 1rem auto;
-  width: 80%;
-}
-
-#copyright {
-  margin-top: 2rem;
-  margin-bottom: 0;
-  font-size: 0.8rem;
-}
-
-#featured-projects {
-  padding: 3% 15%;
-}
-
-#footer {
-  background-color: #030504;
-  color: #fff;
-  margin-top: 1rem;
-  padding: 1.5% 2.8%;
+.btn-header {
+  margin: 0 0.5rem;
+  color: #030504;
 }
 
 #header-img {
@@ -88,35 +26,20 @@ body {
   margin-top: 2rem;
 }
 
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  color: #fff;
-  font-size: 3.5rem;
+.header-lf-col {
+  margin-top: 2.5rem;
 }
 
-h2 {
-  font-weight: 600;
-  color: #030504;
+.header-rg-col {
+  text-align: center;
 }
 
-h3 {
-  font-size: 1.2rem;
-}
-
-.header-footer {
-  color: #fff;
-}
-
-.header-title {
-  font-size: 1.2rem;
-  color: #030504;
-}
-
-#upper-main {
+#header-main {
   background-color: #030504;
   color: #fff;
 }
+
+/* Navigation Bar */
 
 .navbar {
   background-color: #030504;
@@ -126,19 +49,45 @@ h3 {
 }
 
 .navbar-brand {
-  color: #fff;
   font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   font-size: 2rem;
+  margin-left: 1rem;
 }
 
 .nav-list {
   margin-right: 14%;
 }
 
-p {
+.nav-list-anchor {
   font-size: 1rem;
-  margin-bottom: 0.2rem;
+  font-weight: 600;
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Project Section */
+
+.btn-project {
+  margin-top: 2rem;
+}
+
+.btn-project:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #030504;
+}
+
+.col-project-content {
+  border: 1px inset rgba(0, 0, 0, 0.3);
+}
+
+.col-project-item {
+  padding: 1.5% 5%;
+}
+
+.header-project {
+  margin-left: 3.4375rem;
 }
 
 .projects-row {
@@ -146,21 +95,60 @@ p {
   text-align: center;
 }
 
-.rg-upper-col {
-  text-align: center;
+/* Skill Section */
+
+.btn-skill {
+  margin-top: 2rem;
 }
 
-.lf-upper-col {
-  margin-top: 2.5rem;
+.btn-skill:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #030504;
 }
 
-#skill-container {
-  padding: 3% 15%;
+.code-btn.btn-skill {
+  margin-top: 3.5rem;
+}
+
+.col-skill-content {
+  border: 1px inset rgba(0, 0, 0, 0.3);
+}
+
+.col-skill-item {
+  padding: 1.5% 5%;
+}
+
+.col-skill-text {
+  margin: 1rem auto;
+  width: 80%;
+}
+
+.header-skill {
+  margin-left: 3.4375rem;
 }
 
 .skill-row {
   margin-top: 2rem;
   text-align: center;
+}
+
+/* Footer */
+
+#copyright {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+}
+
+#footer {
+  background-color: #030504;
+  color: #fff;
+  margin-top: 1rem;
+  padding: 1.5% 2.8%;
+}
+
+.header-footer {
+  color: #fff;
 }
 
 .social-media-row {
@@ -169,8 +157,70 @@ p {
 
 .social-media-ref {
   text-decoration: none;
+  color: #fff;
 }
 
 .social-media-ref:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Shared  */
+
+a {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.btn {
+  font-weight: 500;
+}
+
+.content-text {
+  color: #8f8f8f;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+.header-title {
+  font-size: 1.2rem;
+  color: #030504;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+/* Media Responsiveness */
+
+@media (max-width: 1028px) {
+  /* Skill */
+  .header-skill {
+    margin: 0;
+    text-align: center;
+  }
+
+  .header-project {
+    margin: 0;
+    text-align: center;
+  }
 }
